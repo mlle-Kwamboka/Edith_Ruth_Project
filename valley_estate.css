@@ -1,0 +1,310 @@
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+}
+.logo > a {
+    text-decoration: none;
+    color: black;
+    font-family:fantasy;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: Black;
+}
+.navigation > a {
+    text-decoration: none;
+
+}
+.button >button {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: white;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.button1 >button {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: white;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.image1 > img {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 250px;
+    left: 700px;
+    bottom: 100px;
+    border-radius: 5px 100px 5px 100px;
+}
+.intro_text > h1 {
+    color: blue;
+}
+section {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 200px 60px 200px;
+    margin-left: 200px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 1px;
+    width: fit-content;
+    height: 1px;
+}
+.description {
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    color: black;
+
+}
+.description > a {
+    text-decoration: none;
+}
+.Search > button {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: white;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.Our_products > h2 {
+    color: blue;
+    margin-left: 100px;
+}
+.How_it_works > h2 {
+    color: blue;
+    margin-left: 530px;
+}
+.How_it_works > p {
+    margin-left: 500px;
+    margin-top: -10px;
+    align-items: center;
+}
+.Find_home {
+    border-style: solid;
+    border: 1px solid grey;
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    margin-left: 50px;
+}
+.Find_home > img {
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    border-radius: 5px;
+}
+.Find_home > h3 {
+    font: bold;
+}
+.Find_home > p {
+    align-items: center;
+}
+.payment {
+    border-style: solid;
+    border: 1px solid grey;
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+.payment > img {
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    border-radius: 5px;
+}
+.payment > h3 {
+    font: bold;
+}
+.payment > p {
+    align-items: center;
+}
+.Own {
+    border-style: solid;
+    border: 1px solid grey;
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    margin-left: 950px;
+    margin-top: -400px;
+}
+.Own > img {
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    border-radius: 5px;
+}
+.Own > h3 {
+    font: bold;
+}
+.Own > p {
+    align-items: center;
+}
+.why_choose > img {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 250px;
+    left: 100px;
+    bottom: -100px;
+    border-radius: 5px 100px 5px 100px;
+}
+.choose_us {
+    border: 1px solid black;
+    width: 700px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -80px;
+}
+.choose_us > h2 {
+    color: blue;
+    margin: 10px;
+}
+.choose_us > p {
+    align-items: center;
+    margin: 10px;
+}
+.choose_us > ul {
+    column-count: 2;
+}
+.Featured {
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.Featured > h2 {
+    color: blue;
+
+}
+.Featured > p {
+    align-items: center;
+}
+.palace_image > img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    left: 50px;
+    bottom: -50px;
+    border-radius: 5px 100px 5px 100px;
+    margin-left: 100px;
+}
+.palace {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.ivy_image > img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    left: 50px;
+    bottom: -50px;
+    border-radius: 5px 100px 5px 100px;
+    margin-left: 450px;
+    margin-top: -270px;
+}
+.ivy {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.rexona_image > img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    left: 50px;
+    bottom: -50px;
+    border-radius: 5px 100px 5px 100px;
+    margin-left: 800px;
+    margin-top: -270px
+}
+.rexona {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-left: 850px;
+    margin-top: 70px;
+}
+.see_more > button {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 1000px;
+}
+.Customers > h2 {
+    color: blue;
+    align-items: center;
+    margin-left: 500px;
+}
+.Customers > p {
+    align-items: center;
+    margin: 500px;
+    margin-top: -20px;
+}
+.Aladin {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -450px;
+}
+.Alex {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+.Godwin {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: -200px;
+}
+.more_cust > button {
+    color: white;
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: blue;
+}
