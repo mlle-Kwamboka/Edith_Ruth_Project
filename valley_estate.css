@@ -17,7 +17,8 @@ header {
 }
 .navigation > a {
     text-decoration: none;
-
+    font-size: 16px;
+    font-family: sans-serif;
 }
 .button >button {
     color: white;
@@ -27,62 +28,90 @@ header {
     border: white;
     border-radius: 10px;
     margin-top: -20px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
-.button1 >button {
+.intro_text > h1 {
+    color: blue;
+    margin-left: 100px;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 40px;
+}
+.intro_text > p {
+    align-items: center;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.image1 > img {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 450px;
+    left: 570px;
+    bottom: 250px;
+    border-radius: 1px 150px 1px 150px;
+}
+.button1 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.button1 > button {
     color: white;
     background-color: blue;
     height: 50px;
     width: 150px;
     border: white;
     border-radius: 10px;
-    margin-top: -20px;
-    margin-bottom: 100px;
+    margin-top: -280px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 .button1 > img {
     position: relative;
     display: flex;
     height: 35px;
     width: 25px;
-    left: 200px;
+    left: 60px;
+    top: -270px;
     bottom: 140px;
-    border-radius: 50px
-}
-.image1 > img {
-    position: relative;
-    display: flex;
-    height: 200px;
-    width: 250px;
-    left: 700px;
-    bottom: 100px;
-    border-radius: 5px 100px 5px 100px;
-}
-.intro_text > h1 {
-    color: blue;
+    border-radius: 50px;
 }
 section {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 60px 200px 60px 200px;
-    margin-left: 50px;
+    margin-left: 120px;
     border: 1px solid white;
     box-shadow: 1px 1px 10px 1px whitesmoke;
+    box-sizing: border-box;
     height: 1px;
+    width: 1100px;
     border-radius: 10px;
+    margin-top: -150px;
     
 }
 .description {
     display:flex;
     flex-direction: row;
-    gap: 140px;
+    gap: 100px;
     color: black;
 
 }
 .description > a {
     text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 .Search > button {
     color: white;
+    font-size: 16px;
+    font-family: sans-serif;
     background-color: blue;
     height: 50px;
     width: 150px;
@@ -93,23 +122,30 @@ section {
 .Our_products > h2 {
     color: blue;
     margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
 }
 .How_it_works > h2 {
     color: blue;
     margin-left: 530px;
+    font-family: sans-serif;
 }
 .How_it_works > p {
     margin-left: 500px;
     margin-top: -10px;
+    margin-bottom: 50px;
     align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 .Find_home {
     border-style: solid;
     border: 1px solid white;
-    width: 280px;
+    width: 250px;
     height: 300px;
     padding: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
     box-shadow: 1px 1px 10px 1px whitesmoke
 }
 .Find_home > img {
@@ -121,17 +157,19 @@ section {
 }
 .Find_home > h3 {
     font: bold;
+    font-family: sans-serif;
 }
 .Find_home > p {
     align-items: center;
+    font-family: sans-serif;
 }
 .payment {
     border-style: solid;
     border: 1px solid white;
-    width: 280px;
+    width: 250px;
     height: 300px;
     padding: 50px;
-    margin-left: 450px;
+    margin-left: 470px;
     margin-top: -400px;
     box-shadow: 1px 1px 15px 1px whitesmoke
 }
@@ -144,17 +182,19 @@ section {
 }
 .payment > h3 {
     font: bold;
+    font-family: sans-serif;
 }
 .payment > p {
     align-items: center;
+    font-family: sans-serif;
 }
 .Own {
     border-style: solid;
     border: 1px solid white;
-    width: 280px;
+    width: 250px;
     height: 300px;
     padding: 50px;
-    margin-left: 850px;
+    margin-left: 840px;
     margin-top: -400px;
     box-shadow: 1px 1px 10px 1px whitesmoke
 }
@@ -167,48 +207,62 @@ section {
 }
 .Own > h3 {
     font: bold;
+    font-family: sans-serif;
 }
 .Own > p {
     align-items: center;
+    font-family: sans-serif;
 }
 .why_choose > img {
     position: relative;
     display: flex;
-    height: 200px;
-    width: 250px;
+    height: 300px;
+    width: 450px;
     left: 100px;
     bottom: -100px;
-    border-radius: 5px 100px 5px 100px;
+    border-radius: 1px 150px 1px 150px;
 }
 .choose_us {
-    border: 1px solid white;
-    width: 700px;
-    height: 200px;
-    margin-left: 400px;
+    margin-left: 450px;
     margin-top: -80px;
 }
 .choose_us > h2 {
     color: blue;
-    margin: 10px;
+    margin-left: 200px;
+    margin-top: -150px;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 .choose_us > p {
     align-items: center;
-    margin: 10px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 .choose_us > ul {
     column-count: 2;
+    margin-left: 180px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 .Featured {
     align-items: center;
     margin-left: 500px;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 .Featured > h2 {
     color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
 
 }
 .Featured > p {
     align-items: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: -70px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 .palace_image > img {
     position: relative;
